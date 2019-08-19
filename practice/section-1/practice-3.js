@@ -5,7 +5,7 @@
 // }
 
 function collectSameElements(collectionA, objectB) {
-  var c = new Array();
+  var a_b_value_same = new Array();
   var collectionB=objectB.value;
   for(var i = 0; i<collectionA.length ; i++)
   {
@@ -13,11 +13,11 @@ function collectSameElements(collectionA, objectB) {
     {
       if (collectionA[i] == collectionB[j])
       {
-        c.push(collectionA[i]);
+        a_b_value_same.push(collectionA[i]);
         break;
       }
     }
   }
-  return c;
+  return a_b_value_same;
 }
 
